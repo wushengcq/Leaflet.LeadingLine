@@ -1,0 +1,18 @@
+{
+  "name": "Leaflet.LeadingLine",
+  "version": "1.0.0",
+  "description": "This is a Leaflet.js plugin for drawing line with leading arrow.",
+  "main": "LeadingLine.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wushengcq/Leaflet.LeadingLine.git"
+  },
+  "author": "WuSheng",
+  "devDependencies": {
+    "uglify-js": "^2.5.0"
+  },
+  "scripts": {
+    "build": "uglifyjs src/LeadingLine.js -c -m -o dist/LeadingLine.js"
+  }
+}
